@@ -1,0 +1,722 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400italic);
+body{font-family: 'Raleway', sans-serif;font-weight:400;}
+/* Styling Next and Prev buttons */
+
+/*owl coursel navigaton two sides */
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.23
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+#owl-demo .owl-item div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:4px;
+}
+
+#owl-demo .owl-item div{
+  background : #42bdc2;
+  text-align: center;
+  padding:50px 0px;
+  margin:3px;
+  color: white;
+  font-size:32px;
+  border:1px white;
+}
+
+.wrapper-with-margin{
+  margin:0px 50px;
+}
+
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: 4px;
+  top: 150px; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 4px;
+  top: 150px;
+}
+
+/*menu changeing */
+.navbar {
+  border: 0px solid transparent;
+  margin-bottom: 0;
+  min-height: 108px;
+  position: relative;
+}
+.navbar-default {
+  background-color: #FFFFFF;
+  border-color: #E7E7E7;
+}
+
+#ascrail2000-hr{display:none !important;}
+#navbar-top {
+}
+
+#one {
+}
+
+#two {
+}
+
+#three {
+}
+
+#four {
+}
+
+#five {
+}
+
+#owl_demo_three {
+}
+
+#coursel_text {
+text-align: center;
+}
+
+.header_area {
+}
+
+.navbar {
+}
+
+.navbar-default {
+}
+
+.navbar-static {
+}
+
+
+.navbar-header {
+margin-right: 30px;
+margin-top: 27px;
+}
+
+.navbar-toggle {
+}
+
+.sr-only {
+}
+
+.icon-bar {
+}
+
+.navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	font-size:30px;
+}
+
+.nav-external {
+}
+
+.collapse {
+}
+
+.navbar-collapse {
+}
+
+.nav {
+margin-top: 29px;
+}
+
+.navbar-nav {
+}
+
+.navbar-left {
+}
+
+.navbar-left li {
+}
+
+.navbar-left li a {
+color: #747A7A;
+font-size: 14px;
+text-transform: uppercase;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #000;
+}
+.active {
+	color:#000;
+}
+
+.active a {
+}
+
+.contact_header {
+margin-top: 41px;
+
+}
+
+.contact_header p {
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+}
+.header_email{
+margin-left:11px;
+}
+.contact_header p span {
+}
+
+.fa {
+}
+
+.fa-phone-square {
+}
+
+
+.slider_area {
+background: url("img/slider_bg.jpg") repeat scroll -448px 0 / cover  transparent;
+height: 730px;
+}
+
+.slider {
+color: #FFFFFF;
+margin-top: 170px;
+width: 500px;
+}
+
+.slider h1 {
+font-size: 36px;
+font-weight: 700;
+line-height: 37px;
+}
+
+.slider h2 {
+font-size: 36px;
+font-weight: 300;
+line-height: 15px;
+}
+
+.slider p {
+color: #9DC7D1;
+}
+
+.slider a {
+border: 4px solid #91B0B5;
+border-radius: 50px 50px 50px 50px;
+color: #FFFFFF;
+display: block;
+font-size: 21px;
+font-weight: 700;
+height: 60px;
+margin-top: 50px;
+padding-left: 48px;
+padding-top: 11px;
+text-decoration: none;
+width: 240px;
+}
+
+.feature_area {
+}
+
+.feature_heading {
+padding-bottom: 40px;
+padding-top: 100px;
+text-align: center;
+}
+
+.gallary_title h2,.feature_heading h2 {
+color: #636C6C;
+font-size: 36px;
+font-weight: 700;
+}
+
+.gallary_title p,.feature_heading p {
+color: #AFB8B8;
+font-size: 16px;
+}
+
+.nav-tabs {
+float: left;
+width: 350px;
+}
+
+.nav-tabs li {
+border-right: 1px solid #DBE2E2;
+display: block;
+float: left;
+margin-bottom: -1px;
+width: 100%;
+}
+.nav-tabs li.active{border-right: 10px solid #DA334B;}
+.nav-tabs li.active .fa{
+	color:#DA334B;
+}
+.nav-tabs li a .fa{float: left;
+font-size: 45px;
+margin-right: 30px;}
+.nav-tabs li a {
+background: none repeat scroll 0 0 transparent !important;
+border: 0 none !important;
+color: #9FA9A9 !important;
+font-size: 20px;
+padding: 30px 0;
+}
+.text_tab{
+
+}
+.nav-tabs li.active a{
+color: #636c6c !important;
+}
+.nav-tabs {
+  border-bottom: 0 solid #DDDDDD;
+}
+.fa-heart-o {
+}
+
+.fa-briefcase {
+}
+
+.fa-leaf {
+}
+
+.fa-rocket {
+}
+
+.fa-umbrella {
+}
+
+.tab-content {
+float: right;
+width: 650px;
+}
+
+.tab-pane {
+}
+
+.fade {
+}
+
+.in {
+}
+
+.single_tab {
+margin-top: 100px;
+}
+.icon_tab_arif{
+	text-align:center;
+}
+.single_tab i{
+	font-size: 136px;
+	color: #DA334B;
+}
+
+.single_tab h3 {
+color: #636C6C;
+font-size: 24px;
+font-weight: 700;
+}
+
+.single_tab p {
+color: #AFB8B8;
+font-size: 16px;
+}
+.tab_main{
+	padding-bottom:100px;
+}
+.perfect_area {
+background: none repeat scroll 0 0 #F2F9FE;
+padding: 90px 0;
+}
+
+.col-lg-6 {
+}
+
+.perfect_text {
+padding-top: 60px;
+}
+
+.screenshot_text h2,.perfect_text h2 {
+color: #DA334B;
+font-size: 36px;
+font-weight: 700;
+}
+
+.perfect_text h2 br {
+}
+
+.screenshot_text h3,.perfect_text h3 {
+color: #8C9494;
+font-size: 30px;
+font-weight: 400;
+}
+
+.perfect_text h3 br {
+}
+
+.screenshot_text p,.perfect_text p {
+color: #8C9494;
+font-size: 16px;
+}
+
+.screenshot_text a,.perfect_text a {
+border: 4px solid #aab2b5;
+border-radius: 50px 50px 50px 50px;
+color: #636c6c;
+display: block;
+font-size: 21px;
+font-weight: 700;
+height: 60px;
+margin-top: 50px;
+padding-left: 48px;
+padding-top: 13px;
+text-decoration: none;
+width: 240px;
+}
+
+.border {
+}
+
+.border_screenshot,.border_perfect {
+background: none repeat scroll 0 0 #949C9C;
+height: 3px;
+width: 105px;
+}
+
+.perfect_image {
+}
+
+.perfect_image img {
+}
+
+.gallary_area {
+}
+
+.gallary_title {
+padding-bottom: 70px;
+padding-top: 90px;
+text-align: center;
+}
+
+.gallary_title h2 {
+}
+
+.gallary_title p {
+}
+
+.gallary_slider {
+padding-bottom: 100px;
+}
+
+.owl-theme {
+}
+
+.item {
+}
+
+.item img {
+}
+
+.item p {
+}
+
+.screenshot_area {
+background: none repeat scroll 0 0 #F2F9FE;
+padding: 70px 0;
+}
+
+.screenshot_img {
+}
+
+.screenshot_img img {
+}
+
+.screenshot_text {
+}
+
+.screenshot_text h2 {
+}
+
+.screenshot_text h2 br {
+}
+
+.screenshot_text h3 {
+}
+
+.screenshot_text h3 br {
+}
+
+.screenshot_text p {
+}
+
+.screenshot_text a {
+}
+
+.border_screenshot {
+}
+
+.client_area {
+padding-bottom: 100px;
+}
+
+.heading_client {
+padding-bottom: 30px;
+padding-top: 100px;
+text-align: center;
+}
+
+.heading_client h2 {
+	font-size:36px;
+	font-weight:700;
+}
+.owl-carousel {
+}
+
+.coursel_main {
+}
+
+.coursel_main img {
+}
+
+.coursel_main h4 {
+	font-family: 'Droid Serif', serif;font-weight:400;font-style:italic;color:#8c9494;font-size:24px;
+}
+.coursel_main i.fa-quote-left{
+	font-size:20px;
+}
+.coursel_main i.fa-quote-right{
+	font-size:20px;
+}
+.icon_main_para span{}
+.coursel_main h3 {
+color: #DA334B;
+font-size: 24px;
+}
+.owl-theme .owl-controls .active span {
+	background:#DA334B;
+}
+.subscribe_area {
+background: none repeat scroll 0 0 #F3F5F5;
+padding-bottom: 110px;
+padding-top: 80px;
+text-align: center;
+}
+
+.subscribe {
+}
+.subscribe .fa-envelope-o {
+color: #8C9494;
+display: inline-block;
+font-size: 36px;
+}
+
+.subscribe h2 {
+color: #8C9494;
+display: inline;
+font-size: 36px;
+font-weight: 700;
+margin-left: 10px;
+}
+
+.subscribe_form {
+margin-top: 50px;
+}
+
+.subscribe_form input[type="text"]{
+border: 1px solid #BBC3C2;
+color: #8C9494;
+height: 56px;
+padding-left: 24px;
+width: 600px;
+border-radius: 25px 0px 0px 25px;
+}
+.subscribe_form input[type="submit"]{
+background: none repeat scroll 0 0 #DA334B;
+border: medium none;
+border-radius: 50px 50px 50px 50px;
+color: #FFFFFF;
+display: inline-block;
+font-size: 20px;
+font-weight: 700;
+height: 60px;
+margin-left: -30px;
+text-transform: uppercase;
+width: 165px;
+}
+
+.footer_area {
+background: none repeat scroll 0 0 #2D312F;
+text-align: center;
+}
+
+.social {
+padding: 70px 0 30px;
+}
+
+.social h3 {
+color: #8C9494;
+font-size: 24px;
+}
+
+.social_icon {
+}
+
+.social_icon ul {
+}
+
+.social_icon ul li {
+display: inline-block;
+padding: 10px;
+}
+
+.social_icon ul li a {
+background: none repeat scroll 0 0 #5D6461;
+border-radius: 50% 50% 50% 50%;
+display: block;
+height: 45px;
+width: 45px;
+}
+.social_icon ul li a i{}
+.social_icon ul li a i.fa{color: #2D312F;
+font-size: 19px;
+padding-top: 13px;}
+.fa-facebook {
+}
+menu, ol, ul {
+  padding: 0;
+}
+.fa-tumblr {
+}
+
+.fa-google {
+}
+
+.fa-flickr {
+}
+
+.fa-youtube {
+}
+
+.footer_menu {
+}
+
+.footer_menu ul {
+}
+
+.footer_menu ul li {
+display: inline-block;
+}
+
+.footer_menu ul li a {
+color: #8C9494;
+padding:0 10px;
+text-decoration: none;
+}
+.gallary_slider .item{
+	margin-left: 47px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: none repeat scroll 0 0 transparent;
+  border-radius: 30px 30px 30px 30px;
+  color: #9fa9a9;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px;
+  opacity: 0.5;
+  padding: 3px 10px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 4px;
+  top: 310px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 4px;
+  top: 310px;
+}
+.gallary_slider .fa {
+  color: #9FA9A9;
+  font-size: 37px;
+}
+.gallary_slider p{
+color: #8C9494;
+margin-top: 40px;
+text-align: center;
+}
